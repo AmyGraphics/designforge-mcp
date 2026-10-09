@@ -1,0 +1,32 @@
+{
+  "name": "designforge-mcp",
+  "version": "1.0.0",
+  "description": "DesignForge - Autonomous Design Systems Engineering, Design Tokens, Theming & WCAG Accessibility Engine MCP. Architects complete design systems: W3C design tokens, Tailwind v4 theming, dark mode, OKLCH color scales, headless component architecture (CVA + Radix/React Aria), WCAG 2.2 AA accessibility remediation, and design system release/governance pipelines.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "design-system",
+    "design-tokens",
+    "tailwind-v4",
+    "theming",
+    "dark-mode",
+    "wcag",
+    "accessibility",
+    "a11y",
+    "oklch",
+    "radix-ui",
+    "react-aria",
+    "shadcn",
+    "component-library",
+    "storybook",
+    "cursor",
+    "claude"
+  ],
+  "homepage": "https://mcp-hub.agentweb-hub.workers.dev/mcp/designforge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmyGraphics/designforge-mcp"
+  },
+  "author": "AmyGraphics",
+  "license": "MIT"
+}
