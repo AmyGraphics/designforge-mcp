@@ -20,11 +20,11 @@ Streamable HTTP MCP — works with Cursor, Claude Code, Claude Desktop, Windsurf
 
 | Tool | What it does |
 |------|-------------|
-| `autonomous_design_system_architect` | Full design system blueprint: 3-tier token architecture, styling stack decision (Tailwind v4 / CSS vars / vanilla-extract), component strategy (shadcn copy-in vs headless vs library), multi-brand theming plan, governance model by team size, incremental adoption roadmap |
-| `generate_design_tokens` | Production-ready design tokens in Tailwind v4 `@theme`, CSS custom properties, or W3C DTCG tokens JSON — OKLCH color scales, semantic tier, dark-mode remap, no-flash head script |
-| `build_component_architecture` | Headless component architecture: CVA variant patterns, compound components, Radix / React Aria / Base UI integration, Storybook + interaction testing strategy |
-| `implement_accessible_ui` | WCAG 2.2 AA remediation engine: top failure fixes with reference code (focus management, live regions, form wiring, reduced motion), token-level contrast CI, ADA / EAA / VPAT / Section 508 guidance |
-| `prepare_design_system_release` | Ship your design system: semver + changesets vs copy-in registry, docs strategy, codemods, lint-ratchet adoption, contribution model, go-live checklist |
+| `design.architect` | Full design system blueprint: 3-tier token architecture, styling stack decision (Tailwind v4 / CSS vars / vanilla-extract), component strategy (shadcn copy-in vs headless vs library), multi-brand theming plan, governance model by team size, incremental adoption roadmap |
+| `design.tokens` | Production-ready design tokens in Tailwind v4 `@theme`, CSS custom properties, or W3C DTCG tokens JSON — OKLCH color scales, semantic tier, dark-mode remap, no-flash head script |
+| `design.components` | Headless component architecture: CVA variant patterns, compound components, Radix / React Aria / Base UI integration, Storybook + interaction testing strategy |
+| `design.accessibility` | WCAG 2.2 AA remediation engine: top failure fixes with reference code (focus management, live regions, form wiring, reduced motion), token-level contrast CI, ADA / EAA / VPAT / Section 508 guidance |
+| `design.release` | Ship your design system: semver + changesets vs copy-in registry, docs strategy, codemods, lint-ratchet adoption, contribution model, go-live checklist |
 
 ## ⚡ Quick Start (Cursor / Claude Code)
 
@@ -38,7 +38,7 @@ Streamable HTTP MCP — works with Cursor, Claude Code, Claude Desktop, Windsurf
 }
 ```
 
-## 🔴 NEW in v1.1 — Live Tool: `check_color_contrast`
+## 🔴 NEW in v1.1 — Live Tool: `design.check_contrast`
 
 Computes the REAL WCAG 2.1 contrast ratio between two colors with exact spec math: AA/AAA pass-fail for normal and large text, plus computed compliant color suggestions when it fails.
 
