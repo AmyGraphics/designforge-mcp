@@ -38,6 +38,12 @@ Streamable HTTP MCP — works with Cursor, Claude Code, Claude Desktop, Windsurf
 }
 ```
 
+## 🔴 NEW in v1.1 — Live Tool: `check_color_contrast`
+
+Computes the REAL WCAG 2.1 contrast ratio between two colors with exact spec math: AA/AAA pass-fail for normal and large text, plus computed compliant color suggestions when it fails.
+
+No API key needed — works out of the box.
+
 ## 💰 Pricing
 
 **Start free — 10 requests/day, no signup, no card.** Upgrade only if it earns a place in your workflow.
